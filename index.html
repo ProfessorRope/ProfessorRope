@@ -1,56 +1,3 @@
-ChatGPT
-
-
-
-can you create a website for me in github that is just a blog plain text
-
-Your GitHub Pages blog file is ready:
-
-📄 Download index.html
-
-To publish it on GitHub Pages:
-
-Create a new GitHub repository (for example, blog).
-
-Upload index.html to the repository root.
-
-Go to Settings → Pages.
-
-Under Source, select Deploy from a branch.
-
-Choose main branch and /(root).
-
-Save.
-
-GitHub will publish it at:
-
-https://your-github-username.github.io/blog/
-
-If you'd like, I can also create:
-
-A multi-post blog with separate pages
-
-A Markdown-based blog using Jekyll
-
-A minimalist academic/professor blog
-
-A dark mode text-only blog
-
-A blog with RSS feed and categories for your GIS, teaching, hiking, and rope-writing posts. 
-
-
-
-a rope website based on some of the things I've discussed including polyvagal theory
-
-I’ll turn the plain blog into a small rope-focused site with a calm “embodied education” frame, including polyvagal-informed language without making medical claims. I’ll keep it GitHub Pages simple: one index.html, easy to edit, no dependencies.
-
-Thought for a couple of seconds
-The site is taking shape as a single-page “rope, presence, nervous system” homepage with editable blog sections. I’m making it plain enough for GitHub, but not bland: warm paper texture, minimal navigation, and writing prompts baked in. 
-
-Done: Download the rope website HTML
-
-Upload it to GitHub as index.html and turn on GitHub Pages. 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -205,6 +152,26 @@ Upload it to GitHub as index.html and turn on GitHub Pages.
   width: 100%;
   height: 320px;
   object-fit: cover;
+
+  .social-links {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: var(--ink);
+  border: 1px solid var(--line);
+  padding: 8px 14px;
+  border-radius: 999px;
+  transition: background 0.2s;
+}
+
+.social-links a:hover {
+  background: #eadcc9;
+}
 }
     @media (max-width: 650px) {
       .page {
@@ -236,7 +203,17 @@ Upload it to GitHub as index.html and turn on GitHub Pages.
         <a href="#contact">Contact</a>
       </nav>
     </header>
+<div class="social-links">
+  <a href="https://www.instagram.com/ProfRope/" target="_blank">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/instagram.svg"
+         alt="Instagram"
+         width="20">
+  </a>
 
+  <a href="https://theplay.la/" target="_blank">
+    
+  </a>
+</div>
     <section id="gallery1">
         
   
@@ -428,7 +405,7 @@ Upload it to GitHub as index.html and turn on GitHub Pages.
 </p>  
    <p>
   Instagram:
-  <a href="https://www.instagram.com/professorrope/" target="_blank">
+  <a href="https://www.instagram.com/profrope/" target="_blank">
     @profrope
   </a>
 </p>  
